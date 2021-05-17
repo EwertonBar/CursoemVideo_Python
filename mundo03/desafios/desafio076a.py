@@ -1,0 +1,11 @@
+compras = ('Caneta', 1.50, 'Borracha', 2, 'Caderno', 8.5, 'Mochila', 88, 'Notebook', 1520)
+
+print('-'*30)
+print('{:^30}'.format('LISTA DE PREÇOS'))
+print('-'*30)
+print('{:-<21}{}{:>7.2f}'.format(compras[0],'R$',compras[1]))
+print('{:-<21}{}{:>7.2f}'.format(compras[2],'R$',compras[3]))
+print('{:-<21}{}{:>7.2f}'.format(compras[4],'R$',compras[5]))
+print('{:-<21}{}{:>7.2f}'.format(compras[6],'R$',compras[7]))
+print('{:-<21}{}{:>7.2f}'.format(compras[8],'R$',compras[9]))
+print('-'*30)
